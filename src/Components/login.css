@@ -1,0 +1,173 @@
+.login_component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+}
+
+.login-left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+}
+
+.login-left-section-span1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: black;
+}
+
+.login-left-section-span2 {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: black;
+}
+
+.login-right-section{
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.login-card{
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  height: 25rem;
+  background-color: white;
+  color: black;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10%;
+  border-radius: 2rem;
+}
+
+.login-card-heading-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.login-card-heading{
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.login-card-subheading{
+  font-size: 1rem;
+  font-weight: 400;
+  color: darkgrey;
+}
+
+.login-card-email{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  gap: 0.25rem;
+}
+.login-card-email label{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.login-card-email input{
+  width: 100%;
+  height: 100%;
+  padding: 0.75rem 0rem 0.75rem 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid lightgrey;
+}
+.login-card-password{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  gap: 0.25rem;
+}
+
+.login-card-password label{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.login-card-password input{
+  width: 100%;
+  height: 100%;
+  padding: 0.75rem 0rem 0.75rem 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid lightgrey;
+}
+
+.login-card-checkbox-password{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+.login-card-checkbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.login-card-forgot-password{
+  color: green;
+}
+
+.login-card-button{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card-sign-in{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  padding: 0.75rem 0.5rem;
+  color: white;
+  background-color: #36a562;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.login-card-copyright{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.login-card-copyright-text{
+  width: 75%;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: darkgrey;
+}
